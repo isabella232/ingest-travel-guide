@@ -86,7 +86,7 @@ The services of the Ingest component broken down into functions.
     * URL for staging area
     * Credentials for access 
 
-### 2.2 Spreadsheet to JSON Coverter
+### 2.2 Spreadsheet to JSON Converter
 * _Input_
     * Valid submission UUID
     * A reference to a XLSX spreadsheet file in an accessible store
