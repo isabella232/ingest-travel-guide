@@ -15,3 +15,6 @@ Code [linting](https://en.wikipedia.org/wiki/Lint_(software)) is a type of stati
 ## Conventions in the codebase 
 ## Common programming patterns 
 ## Development process
+
+## Python
+See: [Learning Path: Python](https://docs.google.com/document/d/1mOviM3jEh_YYjd9vZyP_dYV_9vMWK8HPd4TaMlU1ECo/edit)
