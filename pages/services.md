@@ -198,7 +198,7 @@ Perform the appropriate JSON Schema metadata validation
         * Submission uuid
         * Metadata uuid (if exists)
         * Metadata JSON entity
-        * Validation results
+        * Validation results JSON
         
 ### 4.2 Fastq File Validator
 * _Trigger_
@@ -217,7 +217,7 @@ Perform the appropriate JSON Schema metadata validation
         * Event: File validation failed
         * Submission uuid
         * A reference to a data file in an accessible store
-        * Validation results
+        * Validation results JSON
 
 ## 5. [Ingest Archiver](https://github.com/HumanCellAtlas/ingest-archiver)
 [![Ingest Archiver Build Status](https://travis-ci.org/HumanCellAtlas/ingest-archiver.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ingest-archiver)
