@@ -1,6 +1,10 @@
 # Services
 The services of the Ingest component broken down into functions.
 
+Functions should be self contained steps that:
+* Are passed all the information they need to process as JSON
+* Output results as JSON
+
 ## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
 * Provide an gateway API between the UI and [Ingest Core]
@@ -283,7 +287,7 @@ Perform the appropriate JSON Schema metadata validation
 
 ## 6. [Ingest Exporter](https://github.com/HumanCellAtlas/ingest-exporter) 
 
-### 6.1 Bundle Generation
+### 6.1 Bundle Generator
 * _Trigger_
     * HTTP POST: Submit
 * _Input_
@@ -295,7 +299,7 @@ Perform the appropriate JSON Schema metadata validation
     * Event: Bundle generated
     * A JSON bundle file
     
-### 6.2 Bundle Staging
+### 6.2 Bundle Stager
 * _Trigger_
     * Event: Bundle generated
 * _Input_
@@ -308,7 +312,7 @@ Perform the appropriate JSON Schema metadata validation
     * Event: staging complete
     * submission uuid
     
-### 6.3 Bundle Staging Result
+### 6.3 Bundle Result
 * _Trigger_
     * Message from DSS
 * _Input_
