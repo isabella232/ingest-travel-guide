@@ -1,7 +1,8 @@
 # Principles
 * [Tell don't ask](https://martinfowler.com/bliki/TellDontAsk.html)
     * For example a function should be provided with all the data needed to perform processing. It should not be given a reference with which to retreive data from another system.
-* [Loose Coupling](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
+* [Loose Coupling](https://en.wikipedia.org/wiki/Loose_coupling)
+    * [Mocking is a Code Smell](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
 * [SOLID](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
     * _S_	- Single responsibility principle
         * a class should have only a single responsibility (i.e. changes to only one part of the software's specification should be able to affect the specification of the class)
