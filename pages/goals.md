@@ -18,8 +18,12 @@
 * [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
 ### 3. Implement first version of broker submission UI (For more details see MVP Doc)
 #### a. Support template download, metadata upload, validation results and submission review based on broker UI mock-ups and on user interview feedback
+* [1. Ingest Broker API](../pages/services.md/#1-ingest-broker-api)
+* [8. Ingest Broker UI](../pages/services.md/#8-ingest-broker-ui)
 #### b. Support ingestion of metadata content via XLSX format spreadsheet upload and include validation reports
-#### c. Interface to add or edit fields that require an ontology terms before completing a submission. 
+* [2. Ingest Broker](../pages/services.md//#2-ingest-broker)
+#### c. Interface to add or edit fields that require an ontology terms before completing a submission.
+* !Unspecified
 ### 4. Ingestion service stable and scales over exemplar datasets from pilot submitters (For more details see MVP Doc)
 #### a. Ingest service integrated with datastore and secondary analysis pipeline for complete data flow through designated APIs.
 #### b. Ingest all existing, public, single cell sequencing datasets that adhere to HCA guidelines
