@@ -14,7 +14,7 @@ This approach allows for functions to be written in different languages and sepe
 ### 1.1 Submission Create
 * _Trigger_
     * HTTP POST
-* {% icon fa-camera-retro %} _Input_
+* _Input_
     * none
 * _Process_
     * Generate a submission uuid
