@@ -353,7 +353,6 @@ Perform the appropriate JSON Schema metadata validation
     * Event: Cleanup unsuccessful
     * Submission uuid
     
-
 ## [7. Ingest Core](https://github.com/HumanCellAtlas/ingest-core)
 
 * Stores and retrieves metadata information and tracks submission state.
@@ -361,4 +360,16 @@ Perform the appropriate JSON Schema metadata validation
 ## [8. Ingest Broker UI](#8-ingest-broker-ui)
 
 * Provides a web user interface to the [Ingest Broker API](#1-ingest-broker-api).
+
+### Actions
+* Upload Spreadsheet
+* Submit
+* Ontology update
+### Display
+* Validation Errors
+* Submission List
+* Submission Status Report
+
+
+
 
