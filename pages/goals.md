@@ -31,7 +31,7 @@
 * [2. Ingest Broker](../pages/services.md//#2-ingest-broker)
 
 #### c. Interface to add or edit fields that require an ontology terms before completing a submission.
-* [8.4 Action: Update Ontology in Sample]((../pages/services.md/#84-action-update-ontology-in-sample)
+* [8.4 Action: Update Ontology in Sample](../pages/services.md/#84-action-update-ontology-in-sample)
 
 ### 4. Ingestion service stable and scales over exemplar datasets from pilot submitters (For more details see MVP Doc)
 #### a. Ingest service integrated with datastore and secondary analysis pipeline for complete data flow through designated APIs.
