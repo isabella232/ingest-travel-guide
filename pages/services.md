@@ -5,7 +5,7 @@ Functions should be self contained steps that:
 * Are passed all the information they need to process as JSON
 * Output results as JSON
 
-## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
+## <a name="ingest-broker-api"/>1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
 * Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest Broker UI](#ingest-broker-ui) and [Ingest Core](#ingest-core).
 
@@ -350,4 +350,4 @@ Perform the appropriate JSON Schema metadata validation
 
 [GitHub](https://github.com/HumanCellAtlas/ingest-core)
 
-[Valid submission UUID]: e.g. c270052e-f69e-4323-a3b6-eb3d1b688cc5
+## <a name="ingest-broker-ui"></a>8. Ingest Broker UI
