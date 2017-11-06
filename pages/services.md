@@ -1,9 +1,11 @@
 # Services
 The services of the Ingest component broken down into functions.
 
-Functions should be self contained steps that:
-* Are passed all the information they need to process as JSON
+Functions are self-contained steps that:
+* Take input as JSON
 * Output results as JSON
+
+This approach allows for functions to be written in different languages and seperates deployment details from functionality. 
 
 ## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
