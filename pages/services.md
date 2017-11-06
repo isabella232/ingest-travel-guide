@@ -433,16 +433,35 @@ Perform the appropriate JSON Schema metadata validation
 
 * Provides a web user interface to the [Ingest Broker API](#1-ingest-broker-api).
 
+### 8.1 Action: Create Submission
+* _Calls_
+   * [1.1 Submission Create](#11-submission-create)
 ### 8.1 Action: Download Spreadsheet
-### 8.2 Action: Submit Spreadsheet
-### 8.3 Action: Complete Submission 
-### 8.4 Action: Update Ontology in Sample
 
+### 8.2 Action: Submit Spreadsheet
+* _Calls_
+   * [1.3 Spreadsheet Upload](#13-spreadsheet-upload)
+### 8.3 Action: Complete Submission
+* _Calls_
+   * [1.8 Complete Submission](#18-complete-submission)
+### 8.4 Action: Update Ontology in Sample
+* _Calls_
+   * [1.5 Metadata Update](#15-metadata-update)
 ### 8.5 Display: Submission List
+* _Calls_
+   * [1.9 List All Submissions](#19-list-all-submissions)
 ### 8.6 Display: Submission Details
+* _Calls_
+   * ?
 ### 8.7 Display: File Details
+* _Calls_
+   * [1.9 List All Submissions](#12-list-files-for-submission)
 ### 8.8 Display: Credentials
+* _Calls_
+   * [1.2 Get Credentials](#12-get-credentials)
 ### 8.9 Display: Validation Errors
+* _Calls_
+   * [1.7 Validate Sample](#17-validate-sample)
 
 
 
