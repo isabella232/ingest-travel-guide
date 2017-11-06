@@ -345,9 +345,8 @@ Perform the appropriate JSON Schema metadata validation
     * Event: Cleanup unsuccessful
     * Submission uuid
     
-<a name="ingest-core">
-## 7. Ingest Core 
-</a>
+
+## <a name="ingest-core"></a>7. Ingest Core 
 
 [GitHub](https://github.com/HumanCellAtlas/ingest-core)
 
