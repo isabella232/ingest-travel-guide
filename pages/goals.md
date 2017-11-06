@@ -2,8 +2,8 @@
 
 ## Q4 FY2017: Oct 1 - Dec 31 2017
 
-_1. Implement first version of ingest validation service 
-__a. Support validation that data files are correct fastq files
+* 1\. Implement first version of ingest validation service 
+ * a\.  Support validation that data files are correct fastq files
 __b. Support full metadata validation against metadata specification JSON schema
 __c. Support validation of relationships between entities
 __d. Support validation of fields that require an ontology term for all metadata types
