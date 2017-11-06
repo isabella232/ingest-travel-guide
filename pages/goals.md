@@ -6,11 +6,11 @@
 #### a. Support validation that data files are correct fastq files
 * [4.2 Fastq File Validator](../pages/services.md/#42-fastq-file-validator)
 #### b. Support full metadata validation against metadata specification JSON schema
-* 4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+* [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 #### c. Support validation of relationships between entities
-* 4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+* [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 #### d. Support validation of fields that require an ontology term for all metadata types
-* 4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+* [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 ### 2. Implement next version of ingest accessioning service 
 #### a. Support accessioning of sample entities with the EBI/NCBI Biosamples database.
 #### b.  Assignment of “user-friendly” HCA namespace accessions to relevant entities
