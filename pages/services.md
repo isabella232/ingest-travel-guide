@@ -20,6 +20,10 @@ Functions should be self contained steps that:
 * _Output_
     * Event: Submission created
     * Submission uuid
+|Trigger|Input|Process|Output|
+|HTTP Post|none|* Generate a submission uuid
+* Persist uuid|* Event: Submission created
+    * Submission uuid|
 
 ### 1.2 Spreadsheet Upload
 * _Trigger_
