@@ -14,6 +14,7 @@ Base on Patrick Kua's (@patkua) [The Travel Guide to Software Systems](https://w
 * Development process
 
 ## Maps
+* [Services](pages/services.md)
 
 ## Sites
 * [Technology](pages/technology.md)
