@@ -252,6 +252,20 @@ Functions should be self contained steps that:
 
 * Provides HCA format accession numbers where accessions are not available from archives.
 
+### 3.1 HCA Accessioner
+* _Trigger_
+   * Event: Metadata validation successful?
+* _Input_
+   * A valid submission uuid
+   * A metadata uuid
+* _Process_ 
+   * Generate a new HCA accession
+   * Persist mapping of metadata uuid to HCA accession
+* _Output_
+   * Event: Metadata accessioned
+   * Metadata uuid
+   * HCA accession
+
 ## 4. [Ingest Validator](https://github.com/HumanCellAtlas/ingest-validator)
 
 * Provides validation for HCA DCP metadata and data files. 
