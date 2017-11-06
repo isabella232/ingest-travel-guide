@@ -26,11 +26,17 @@
 * !Unspecified
 ### 4. Ingestion service stable and scales over exemplar datasets from pilot submitters (For more details see MVP Doc)
 #### a. Ingest service integrated with datastore and secondary analysis pipeline for complete data flow through designated APIs.
+* [7. Ingest Core](../pages/services.md/#7-ingest-core)
 #### b. Ingest all existing, public, single cell sequencing datasets that adhere to HCA guidelines
 #### c. Ingest a very large, newly generated dataset from at least one pilot submitter
 #### d. Ingest supports export of a single bundle to datastore from multiple “piecemeal” submissions
+* [6. Ingest Exporter](../pages/services.md/#6-ingest-exporter)
 ### 5. Ensure clean separation between content metadata schemas and ingest created/required metadata (EBI/UCSC)
 #### a. Ingest API utilises pre- and post- ingest schemas for validation
+* [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 #### b. Ingest generates metadata schema compliant content including ingest-assigned fields (e.g. UUIDs, accessions, update dates)
+* [6.1. Bundle Generator](../pages/services.md/#61-bundle-generator)
 ### 6. Establish integrated test suite for ingest service and its interactions with other components, including authentication.
+* [1. Ingest Broker API](../pages/services.md/#1-ingest-broker-api)
 ### 7. Specifications stable; all APIs sufficiently documented to support integration and broker submission efforts
+* [1. Ingest Broker API](../pages/services.md/#1-ingest-broker-api)
