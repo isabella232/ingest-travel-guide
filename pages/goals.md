@@ -1,6 +1,7 @@
 # Goals
 
 ## Q4 FY2017: Oct 1 - Dec 31 2017
+The quarterly goals that follow are mapped to the service or function that implements the goal.
 
 ### 1. Implement first version of ingest validation service
 #### a. Support validation that data files are correct fastq files
@@ -11,16 +12,17 @@
 
 #### c. Support validation of relationships between entities
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+* [2.3 Metadata JSON Collection Validator](../pages/services.md/#23-metadata-json-collection-validator)
 
 #### d. Support validation of fields that require an ontology term for all metadata types
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 
 ### 2. Implement next version of ingest accessioning service 
 #### a. Support accessioning of sample entities with the EBI/NCBI Biosamples database.
-* [3.1 HCA Accessioner](../pages/services.md/#31-hca-accessioner)
+* [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
 
 #### b.  Assignment of “user-friendly” HCA namespace accessions to relevant entities
-* [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
+* [3.1 HCA Accessioner](../pages/services.md/#31-hca-accessioner)
 
 ### 3. Implement first version of broker submission UI (For more details see MVP Doc)
 #### a. Support template download, metadata upload, validation results and submission review based on broker UI mock-ups and on user interview feedback
@@ -28,7 +30,9 @@
 * [8. Ingest Broker UI](../pages/services.md/#8-ingest-broker-ui)
 
 #### b. Support ingestion of metadata content via XLSX format spreadsheet upload and include validation reports
-* [2. Ingest Broker](../pages/services.md//#2-ingest-broker)
+* [1.3 Template Spreadsheet Download](../pages/services.md/#13-template-spreadsheet-download)
+* [1.4 Spreadsheet Upload](../pages/services.md/#14-spreadsheet-upload)
+* [2.2 Spreadsheet to JSON Converter](../pages/services.md/#22-spreadsheet-to-json-converter)
 
 #### c. Interface to add or edit fields that require an ontology terms before completing a submission.
 * [8.4 Action: Update Ontology in Sample](../pages/services.md/#84-action-update-ontology-in-sample)
