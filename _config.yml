@@ -8,3 +8,6 @@ permalink:      pretty
 theme: jekyll-theme-primer
 title: Ingest Travel Guide
 description: Documentation for developers new to the HCA DPC Ingest component
+
+plugins:
+  - jekyll-font-awesome
