@@ -462,6 +462,7 @@ Perform the appropriate JSON Schema metadata validation
 ## [8. Ingest Broker UI](#8-ingest-broker-ui)
 
 * Provides a web user interface to the [Ingest Broker API](#1-ingest-broker-api).
+* Components are UI components that call a method on the broker API to perform an action or to retreive data for rendering.
 
 ### 8.1 Action: Create Submission
 * _Calls_
