@@ -21,7 +21,15 @@ Functions should be self contained steps that:
     * Event: Submission created
     * Submission uuid
 
-### 1.2 Spreadsheet Upload
+### 1.2 Get Credentials
+* _Trigger_
+    * HTTP POST
+* _Input_
+    * Submission uuid
+* _Ouput_
+    * Credentials
+    
+### 1.3 Spreadsheet Upload
 * _Trigger_
     * HTTP POST
 * _Input_
@@ -40,7 +48,7 @@ Functions should be self contained steps that:
     * Submission uuid is unknown
     * Uploaded file is something other than a XLSX spreadsheet
 
-### 1.3 Metadata Create
+### 1.4 Metadata Create
 * _Trigger_
     * HTTP POST
 * _Input_
@@ -51,7 +59,7 @@ Functions should be self contained steps that:
     * A valid submission uuid
     * A metadata JSON entity
 
-### 1.4 Metadata Update
+### 1.5 Metadata Update
 * _Trigger_
     * HTTP PUT
 * _Input_
@@ -64,7 +72,7 @@ Functions should be self contained steps that:
     * A metadata uuid
     * A metadata JSON entity
 
-### 1.5 Metadata Delete
+### 1.6 Metadata Delete
 * _Trigger_
     * HTTP DELETE
 * _Input_
@@ -74,6 +82,70 @@ Functions should be self contained steps that:
     * Event: Metadata delete requested
     * A valid submission uuid
     * A metadata uuid
+
+### 1.7 Validate Sample
+* _Trigger_
+    * HTTP POST
+* _Input_
+    * A valid submission uuid
+    * A sample metadata
+* _Output_
+    * Validation results
+    
+### 1.8 Complete Submission
+* _Trigger_
+    * HTTP POST
+* _Input_
+    * A valid submission uuid
+* _Output_
+
+### 1.9 List All Submissions
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * none
+* _Output_
+    * A list of submissions
+
+### 1.10 List Project for Submission
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * A valid submission uuid
+* _Output_
+    * A project
+
+### 1.11 List Samples for Submission
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * A valid submission uuid
+* _Output_
+    * A list of samples
+
+### 1.12 List Files for Submission
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * A valid submission uuid
+* _Output_
+    * A list of files
+
+### 1.13 List Analyses for Submission
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * A valid submission uuid
+* _Output_
+    * A list of analyses
+    
+### 1.14 List Bundles for Submission
+* _Trigger_
+    * HTTP GET
+* _Input_
+    * A valid submission uuid
+* _Output_
+    * A list of bundles
 
 ## 2. [Ingest Broker](https://github.com/HumanCellAtlas/ingest-broker)
 
