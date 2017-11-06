@@ -17,7 +17,7 @@
 
 ### 2. Implement next version of ingest accessioning service 
 #### a. Support accessioning of sample entities with the EBI/NCBI Biosamples database.
-* [3. Ingest Accessioner](../pages/services.md/#3-ingest-accessioner)
+* [3.1 HCA Accessioner](../pages/services.md/#31-hca-accessioner)
 
 #### b.  Assignment of “user-friendly” HCA namespace accessions to relevant entities
 * [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
