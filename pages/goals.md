@@ -13,7 +13,9 @@
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 ### 2. Implement next version of ingest accessioning service 
 #### a. Support accessioning of sample entities with the EBI/NCBI Biosamples database.
+* [3. Ingest Accessioner](../pages/services.md/#3-ingest-accessioner)
 #### b.  Assignment of “user-friendly” HCA namespace accessions to relevant entities
+* [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
 ### 3. Implement first version of broker submission UI (For more details see MVP Doc)
 #### a. Support template download, metadata upload, validation results and submission review based on broker UI mock-ups and on user interview feedback
 #### b. Support ingestion of metadata content via XLSX format spreadsheet upload and include validation reports
