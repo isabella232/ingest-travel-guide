@@ -7,7 +7,7 @@ Functions should be self contained steps that:
 
 ## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
-* Provide an gateway API between the UI and [Ingest Core]
+* Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest Broker UI](#8-ingest-broker-ui) and [Ingest Core](#7-ingest-core).
 
 ### 1.1 Submission Create
 * _Trigger_
@@ -344,8 +344,9 @@ Perform the appropriate JSON Schema metadata validation
 * If unsuccessful
     * Event: Cleanup unsuccessful
     * Submission uuid
+    
 
-## 7. [Ingest Core](https://github.com/HumanCellAtlas/ingest-core)
+## [7. Ingest Core](https://github.com/HumanCellAtlas/ingest-core)
 
+## [8. Ingest Broker UI](#8-ingest-broker-ui)
 
-[Valid submission UUID]: e.g. c270052e-f69e-4323-a3b6-eb3d1b688cc5
