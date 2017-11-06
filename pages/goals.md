@@ -4,6 +4,7 @@
 
 ### 1. Implement first version of ingest validation service
 #### a. Support validation that data files are correct fastq files
+* [4.2 Fastq File Validator](../pages/services.md/#42-fastq-file-validator)
 #### b. Support full metadata validation against metadata specification JSON schema
 #### c. Support validation of relationships between entities
 #### d. Support validation of fields that require an ontology term for all metadata types
