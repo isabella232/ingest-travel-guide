@@ -5,16 +5,20 @@
 ### 1. Implement first version of ingest validation service
 #### a. Support validation that data files are correct fastq files
 * [4.2 Fastq File Validator](../pages/services.md/#42-fastq-file-validator)
+
 #### b. Support full metadata validation against metadata specification JSON schema
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+
 #### c. Support validation of relationships between entities
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+
 #### d. Support validation of fields that require an ontology term for all metadata types
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
 
 ### 2. Implement next version of ingest accessioning service 
 #### a. Support accessioning of sample entities with the EBI/NCBI Biosamples database.
 * [3. Ingest Accessioner](../pages/services.md/#3-ingest-accessioner)
+
 #### b.  Assignment of “user-friendly” HCA namespace accessions to relevant entities
 * [5. Ingest Archiver](../pages/services.md/#5-ingest-archiver)
 
@@ -22,14 +26,17 @@
 #### a. Support template download, metadata upload, validation results and submission review based on broker UI mock-ups and on user interview feedback
 * [1. Ingest Broker API](../pages/services.md/#1-ingest-broker-api)
 * [8. Ingest Broker UI](../pages/services.md/#8-ingest-broker-ui)
+
 #### b. Support ingestion of metadata content via XLSX format spreadsheet upload and include validation reports
 * [2. Ingest Broker](../pages/services.md//#2-ingest-broker)
+
 #### c. Interface to add or edit fields that require an ontology terms before completing a submission.
 * !Unspecified
 
 ### 4. Ingestion service stable and scales over exemplar datasets from pilot submitters (For more details see MVP Doc)
 #### a. Ingest service integrated with datastore and secondary analysis pipeline for complete data flow through designated APIs.
 * [7. Ingest Core](../pages/services.md/#7-ingest-core)
+
 #### b. Ingest all existing, public, single cell sequencing datasets that adhere to HCA guidelines
 #### c. Ingest a very large, newly generated dataset from at least one pilot submitter
 #### d. Ingest supports export of a single bundle to datastore from multiple “piecemeal” submissions
@@ -38,6 +45,7 @@
 ### 5. Ensure clean separation between content metadata schemas and ingest created/required metadata (EBI/UCSC)
 #### a. Ingest API utilises pre- and post- ingest schemas for validation
 * [4.1 Metadata Validator/s](../pages/services.md/#41-metadata-validators)
+
 #### b. Ingest generates metadata schema compliant content including ingest-assigned fields (e.g. UUIDs, accessions, update dates)
 * [6.1. Bundle Generator](../pages/services.md/#61-bundle-generator)
 
