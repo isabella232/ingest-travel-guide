@@ -77,7 +77,7 @@ Functions should be self contained steps that:
 
 ## 2. [Ingest Broker](https://github.com/HumanCellAtlas/ingest-broker)
 
-* Performs brokering between user supplied spreadsheet data and JSON objects for submission to Ingest Core. 
+* Performs brokering between user supplied spreadsheet data and JSON objects for submission to [Ingest Core](#7-ingest-core). 
 
 ### 2.1 Credentials Poller
 * _Trigger_
@@ -178,7 +178,11 @@ Functions should be self contained steps that:
 
 ## 3. [Ingest Accessioner](https://github.com/HumanCellAtlas/ingest-accessioner)
 
+* Provides HCA format accession numbers where accessions are not available from archives.
+
 ## 4. [Ingest Validator](https://github.com/HumanCellAtlas/ingest-validator)
+
+* Provides validation for HCA DCP metadata and data files. 
 
 ### 4.1 Metadata Validator/s
 * _Trigger_
@@ -227,6 +231,8 @@ Perform the appropriate JSON Schema metadata validation
 [![Ingest Archiver Build Status](https://travis-ci.org/HumanCellAtlas/ingest-archiver.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ingest-archiver)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8ce423001595db4e6de7/maintainability)](https://codeclimate.com/github/HumanCellAtlas/ingest-archiver/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8ce423001595db4e6de7/test_coverage)](https://codeclimate.com/github/HumanCellAtlas/ingest-archiver/test_coverage)
+
+* Performs submission to non-HCA archives and returning accessions where available.
 
 ### 5.1 [USI Converter](https://github.com/HumanCellAtlas/ingest-archiver/blob/master/archiver/converter.py)
 * Takes HCA sample JSON and returns USI sample JSON
@@ -286,6 +292,8 @@ Perform the appropriate JSON Schema metadata validation
     * Biosamples accession
 
 ## 6. [Ingest Exporter](https://github.com/HumanCellAtlas/ingest-exporter) 
+
+* Exports data bundles to the HCA DCP data store.
 
 ### 6.1 Bundle Generator
 * _Trigger_
@@ -348,5 +356,9 @@ Perform the appropriate JSON Schema metadata validation
 
 ## [7. Ingest Core](https://github.com/HumanCellAtlas/ingest-core)
 
+* Stores and retrieves metadata information and tracks submission state.
+
 ## [8. Ingest Broker UI](#8-ingest-broker-ui)
+
+* Provides a web user interface to the [Ingest Broker API](#1-ingest-broker-api).
 
