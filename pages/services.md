@@ -348,6 +348,7 @@ Perform the appropriate JSON Schema metadata validation
 <a name="ingest-core">
 ## 7. Ingest Core 
 </a>
+
 [GitHub](https://github.com/HumanCellAtlas/ingest-core)
 
 [Valid submission UUID]: e.g. c270052e-f69e-4323-a3b6-eb3d1b688cc5
