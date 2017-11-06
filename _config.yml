@@ -6,3 +6,5 @@ highlighter:    rouge
 permalink:      pretty
 
 theme: jekyll-theme-slate
+title: Ingest Travel Guide
+description: Documentation for developers new to the HCA DPC Ingest component
