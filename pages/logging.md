@@ -3,6 +3,8 @@
 Based on:
 https://www.youtube.com/watch?v=MmL8H0oGGe8&feature=youtu.be&t=29m30s
 
+See: [Structured Logging](https://www.thoughtworks.com/radar/techniques/structured-logging)
+
 Loggin is an append-only, read-only, user interface
 
 ## Log Meesages Content
