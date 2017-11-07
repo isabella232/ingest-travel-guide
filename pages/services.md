@@ -400,8 +400,6 @@ Perform the appropriate JSON Schema metadata validation
 * Exports data bundles to the HCA DCP data store.
 
 ### 6.1 Bundle Generator
-* _Trigger_
-    * HTTP POST: Submit
 * _Input_
     * A valid submission uuid
 * _Process_
