@@ -43,7 +43,7 @@ This approach allows for functions to be written in different languages and sepe
   + [5.2 USI Submitter](#52-usi-submitter)
   + [5.3 USI Poller](#53-usi-poller)
   + [5.4 USI Accession Persister](#54-usi-accession-persister)
-* [6. [ngest Exporter](#6-ingest-exporterhttpsgithubcomhumancellatlasingest-exporter)
+* [6. Ingest Exporter](#6-ingest-exporterhttpsgithubcomhumancellatlasingest-exporter)
   + [6.1 Bundle Generator](#61-bundle-generator)
   + [6.2 Bundle Stager](#62-bundle-stager)
   + [6.3 Bundle Result](#63-bundle-result)
