@@ -181,6 +181,7 @@ This approach allows for functions to be written in different languages and sepe
     * Credentials for access 
 
 ### 2.2 Spreadsheet to JSON Converter
+See [HCA-203](https://www.ebi.ac.uk/panda/jira/browse/HCA-203)
 * _Input_
     * Valid submission UUID
     * A reference to a XLSX spreadsheet file in an accessible store
