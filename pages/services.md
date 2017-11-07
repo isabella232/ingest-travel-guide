@@ -506,6 +506,10 @@ Perform the appropriate JSON Schema metadata validation
 * _Calls_
    * [1.8 Validate Sample](#18-validate-sample)
 
+## 9. Cross Cutting Concerns
 
+### 9.1 Logging
+* Define a common format for logging of events and errors
 
-
+### 9.2 Authentication and Authorisation
+* Secure external facing [Ingest Broker API](#1-ingest-broker-api) endpoints
