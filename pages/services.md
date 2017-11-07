@@ -338,7 +338,7 @@ Perform the appropriate JSON Schema metadata validation
 
 * Performs submission to non-HCA archives and returning accessions where available.
 
-### 5.1 [USI Converter](https://github.com/HumanCellAtlas/ingest-archiver/blob/master/archiver/converter.py)
+### 5.1 [HCA to USI Converter](https://github.com/HumanCellAtlas/ingest-archiver/blob/master/archiver/converter.py)
 * Takes HCA sample JSON and returns USI sample JSON
 * _Input_
     * Valid submission UUID
@@ -388,7 +388,7 @@ Perform the appropriate JSON Schema metadata validation
     * USI submission id
     * Biosamples accession
 * _Process_
-    * Persist the mapping between sample UUID and BioSamples accession to the data store
+    * Persist the mapping between sample UUID and BioSamples accession to a data store
 * _Output_
     * Valid submission UUID
     * Valid sample UUID
