@@ -312,14 +312,14 @@ Perform the appropriate JSON Schema metadata validation
         * Metadata JSON entity
         * Validation results JSON
         
-### 4.2 Fastq File Validator
+### 4.2 FASTQ File Validator
 * _Trigger_
     * Event: File updated
 * _Input_
     * A valid submission uuid
     * A reference to a data file in an accessible store
 * _Process_
-    * Validate data file to FASTQ validation rules
+    * Validate data file to [defined FASTQ validation rules](#)
 * _Output_
     * Valid
         * Event: File validation successful
