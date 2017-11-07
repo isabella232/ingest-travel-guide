@@ -3,6 +3,8 @@
 Based on:
 https://www.youtube.com/watch?v=MmL8H0oGGe8&feature=youtu.be&t=29m30s
 
+Loggin is an append-only, read-only, user interface
+
 ## Log Meesages Content
 * Unique correlation ID "edge-to-edge" 
   * See AWS XRay/Dapper/Zipkin
