@@ -39,7 +39,7 @@ This approach allows for functions to be written in different languages and sepe
     + [4.1 Metadata Validator/s](#41-metadata-validators)
     + [4.2 FASTQ File Validator](#42-fastq-file-validator)
   * [5. Ingest Archiver](#5-ingest-archiverhttpsgithubcomhumancellatlasingest-archiver)
-    + [5.1 [HCA to USI Converter](https://github.com/HumanCellAtlas/ingest-archiver/blob/master/archiver/converter.py)](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
+    + [5.1 HCA to USI Converter](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
     + [5.2 USI Submitter](#52-usi-submitter)
     + [5.3 USI Poller](#53-usi-poller)
     + [5.4 USI Accession Persister](#54-usi-accession-persister)
