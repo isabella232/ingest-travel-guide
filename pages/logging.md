@@ -13,6 +13,6 @@ https://www.youtube.com/watch?v=MmL8H0oGGe8&feature=youtu.be&t=29m30s
 * The cause, the whole cause and nothing but the cause
   * No noise
 * Answer three questions:
-  * What went wrong
-  * Who is impacted
-  * How do I fix it
+  * What went wrong?
+  * Who is impacted?
+  * How do I fix it?
