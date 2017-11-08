@@ -1,9 +1,11 @@
 # Ingest Roadmap
 
 ## Key
+###  Functionality
 * M - Mock
 * P - Prototype
-* F - Full
+* C - Complete
+### Dependency
 * v4 - For Metadata Schema Version 4
 
 |Cell|M1|M2|M3|M4|M5|M6|M7|
