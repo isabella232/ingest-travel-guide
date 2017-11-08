@@ -11,3 +11,7 @@ description: Documentation for developers new to the HCA DPC Ingest component
 
 plugins:
   - jekyll-font-awesome
+
+gems: [jekyll-mermaid]
+mermaid:
+  src: 'js/mermaid.min.js'
