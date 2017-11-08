@@ -1,5 +1,7 @@
 title: Ingest Travel Guide
 description: Documentation for developers new to the HCA DPC Ingest component
+show_downloads: "false"
+google_analytics: "UA-34537522-6"
 
 # Dependencies
 markdown:       kramdown
@@ -17,3 +19,4 @@ plugins:
 mermaid:
   src: '/js/mermai.min.js'
   src_config: '/js/mermaid_config.js'
+

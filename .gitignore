@@ -53,3 +53,4 @@ fabric.properties
 /ingest-travel-guide.iml
 /_site/
 /.idea/
+/Gemfile.lock
