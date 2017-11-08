@@ -1,4 +1,4 @@
-# HCA Ingest Design
+# Ingest Design
 ## Design Philosophy
 In the early 1970’s [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay), a computer scientist working Xerox PARC proposed a new perspective of thinking about large-scale software systems. His background in Molecular Biology inspired him to consider software as a biological system as a means of enabling scaling and evolution. 
 
