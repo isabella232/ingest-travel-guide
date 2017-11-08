@@ -19,7 +19,7 @@
 |[1.4 Spreadsheet Upload](#14-spreadsheet-upload)|0|F| | | | | | |
 |[1.5 Metadata Create](#15-metadata-create)|0|F| | | | | | |
 |[1.6 Metadata Update](#16-metadata-update)|0|P| | | | | | |
-|[1.7 Metadata Delete](#17-metadata-delete)|0|-| | | | | | |
+|[1.7 Metadata Delete](#17-metadata-delete)|0|0| | | | | | |
 |[1.8 Validate Sample](#18-validate-sample)|0|P| | | | | | |
 |[1.9 Complete Submission](#19-complete-submission)|0|F| | | | | | |
 |[1.10 List All Submissions](#110-list-all-submissions)|0|F| | | | | | |
@@ -63,6 +63,6 @@
 |[8.8 Display: File Details](#88-display-file-details)|P|P| | | | | | |
 |[8.9 Display: Credentials](#89-display-credentials)|P|P| | | | | | |
 |[8.10 Display: Validation Errors](#810-display-validation-errors)|0|P| | | | | | |
-|_[9. Cross Cutting Concerns](#9-cross-cutting-concerns)_|P| | | | | | |
+|_[9. Cross Cutting Concerns](#9-cross-cutting-concerns)_||
 |[9.1 Logging](#91-logging)|0|0|P| | | | | |
 |[9.2 Authentication and Authorisation](#92-authentication-and-authorisation)|0|0|P|| | | | | |  
