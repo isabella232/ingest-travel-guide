@@ -1,0 +1,43 @@
+{
+  "Comment": "Performs submission to non-HCA archives. retreiving and storint accessions where available.",
+  "StartAt": "HCA to USI Converter",
+  "States": {
+    "HCA to USI Converter": {
+      "Type": "Pass",
+      "Next": "USI Submitter"
+    },
+    "USI Submitter": {
+      "Type": "Pass",
+      "Next": "USI Poller"
+    },
+    "USI Poller": {
+      "Type": "Pass",
+      "Next": "ChoiceState"
+    },
+    "Wait": {
+      "Type": "Wait",
+      "Seconds": 10,
+      "Next": "USI Poller"
+    },
+    "ChoiceState": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.state",
+          "StringEquals": "pending",
+          "Next": "Wait"
+        },
+        {
+          "Variable": "$.state",
+          "NumericEquals": "complete",
+          "Next": "USI Accession Persister"
+        }
+      ],
+      "Default": "USI Poller"
+    },
+    "USI Accession Persister": {
+      "Type": "Pass",
+      "End": true
+    }
+  }
+}
