@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HumanCellAtlas/ingest-travel-guide.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ingest-travel-guide)
+
 # HCA DCP Ingest Travel Guide
 
 Base on Patrick Kua's (@patkua) [The Travel Guide to Software Systems](https://www.slideshare.net/thekua/the-travel-guide-to-software-systems).
