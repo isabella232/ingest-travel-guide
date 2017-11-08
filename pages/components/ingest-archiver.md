@@ -1,6 +1,6 @@
 # 5. [Ingest Archiver](https://github.com/HumanCellAtlas/ingest-archiver)
 
-* Performs submission to non-HCA archives. retreiving and storint accessions where available.
+* Performs submission to non-HCA archives. retreiving and storing accessions where available.
 
 [![Ingest Archiver Build Status](https://travis-ci.org/HumanCellAtlas/ingest-archiver.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ingest-archiver)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8ce423001595db4e6de7/maintainability)](https://codeclimate.com/github/HumanCellAtlas/ingest-archiver/maintainability)
