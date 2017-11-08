@@ -38,6 +38,7 @@ This approach allows for functions to be written in different languages and sepe
 * [4. Ingest Validator](#4-ingest-validatorhttpsgithubcomhumancellatlasingest-validator)
   + [4.1 Metadata Validator/s](#41-metadata-validators)
   + [4.2 FASTQ File Validator](#42-fastq-file-validator)
+  + [4.3 Image File Validator](#43-image-file-validator)
 * [5. Ingest Archiver](#5-ingest-archiverhttpsgithubcomhumancellatlasingest-archiver)
   + [5.1 HCA to USI Converter](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
   + [5.2 USI Submitter](#52-usi-submitter)
@@ -49,6 +50,9 @@ This approach allows for functions to be written in different languages and sepe
   + [6.3 Bundle Result](#63-bundle-result)
   + [6.4 Cleanup](#64-cleanup)
 * [7. Ingest Core](#7-ingest-core)
+  + [7.1 Ingest Core API]
+  + [7.2 Persistence]
+  + [7.3 State Management]  
 * [8. Ingest Broker UI](#8-ingest-broker-ui)
   + [8.1 Action: Create Submission](#81-action-create-submission)
   + [8.2 Action: Download Spreadsheet](#82-action-download-spreadsheet)
@@ -62,7 +66,8 @@ This approach allows for functions to be written in different languages and sepe
   + [8.10 Display: Validation Errors](#810-display-validation-errors)
 * [9. Cross Cutting Concerns](#9-cross-cutting-concerns)
   + [9.1 Logging](#91-logging)
-  + [9.2 Authentication and Authorisation](#92-authentication-and-authorisation)       
+  + [9.2 Authentication](#92-authentication)
+  + [9.3 Authorisation](#93-authorisation)  
 
 ## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
