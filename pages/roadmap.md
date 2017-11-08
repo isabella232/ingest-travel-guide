@@ -2,31 +2,32 @@
 
 ## Key
 ###  Functionality
-* M - Mock
-* P - Prototype
-* C - Complete
+* - : Not Implemented
+* M : Mock
+* P : Prototype
+* C : Complete
 ### Dependency
-* v4 - For Metadata Schema Version 4
+* v4 : For Metadata Schema Version 4
 
-|Cell|M1|M2|M3|M4|M5|M6|M7|
-|----|--|--|--|--|--|--|--|
+|Cell|Q4|M1|M2|M3|M4|M5|M6|M7|
+|----|--|--|--|--|--|--|--|--|
 |_[1. Ingest Broker API](#1-ingest-broker-apihttpsgithubcomhumancellatlasingest-broker-api)_||
-|[1.1 Submission Create](#11-submission-create)|F| | | | | | |
-|[1.2 Get Credentials](#12-get-credentials)|F| | | | | | |
-|[1.3 Template Spreadsheet Download](#13-template-spreadsheet-download)|F| | | | | | |
-|[1.4 Spreadsheet Upload](#14-spreadsheet-upload)|F| | | | | | |
-|[1.5 Metadata Create](#15-metadata-create)|F| | | | | | |
-|[1.6 Metadata Update](#16-metadata-update)|P| | | | | | |
-|[1.7 Metadata Delete](#17-metadata-delete)|-| | | | | | |
-|[1.8 Validate Sample](#18-validate-sample)|P| | | | | | |
-|[1.9 Complete Submission](#19-complete-submission)|F| | | | | | |
-|[1.10 List All Submissions](#110-list-all-submissions)|F| | | | | | |
-|[1.11 Get Submission Details](#111-get-submission-details)| | | | | | | |
-|[1.12 List Project for Submission](#112-list-project-for-submission)| | | | | | | |
-|[1.13 List Samples for Submission](#113-list-samples-for-submission)| | | | | | | |
-|[1.14 List Files for Submission](#114-list-files-for-submission)| | | | | | | |
-|[1.15 List Analyses for Submission](#115-list-analyses-for-submission)| | | | | | | |
-|[1.16 List Bundles for Submission](#116-list-bundles-for-submission)| | | | | | | |
+|[1.1 Submission Create](#11-submission-create)|-|F| | | | | | |
+|[1.2 Get Credentials](#12-get-credentials)|-|F| | | | | | |
+|[1.3 Template Spreadsheet Download](#13-template-spreadsheet-download)|-|F| | | | | | |
+|[1.4 Spreadsheet Upload](#14-spreadsheet-upload)|-|F| | | | | | |
+|[1.5 Metadata Create](#15-metadata-create)|-|F| | | | | | |
+|[1.6 Metadata Update](#16-metadata-update)|-|P| | | | | | |
+|[1.7 Metadata Delete](#17-metadata-delete)|-|-| | | | | | |
+|[1.8 Validate Sample](#18-validate-sample)|-|P| | | | | | |
+|[1.9 Complete Submission](#19-complete-submission)|-|F| | | | | | |
+|[1.10 List All Submissions](#110-list-all-submissions)|-|F| | | | | | |
+|[1.11 Get Submission Details](#111-get-submission-details)|-| | | | | | | |
+|[1.12 List Project for Submission](#112-list-project-for-submission)|-| | | | | | | |
+|[1.13 List Samples for Submission](#113-list-samples-for-submission)|-| | | | | | | |
+|[1.14 List Files for Submission](#114-list-files-for-submission)|-| | | | | | | |
+|[1.15 List Analyses for Submission](#115-list-analyses-for-submission)|-| | | | | | | |
+|[1.16 List Bundles for Submission](#116-list-bundles-for-submission)|-| | | | | | | |
 |_[2. Ingest Broker](#2-ingest-brokerhttpsgithubcomhumancellatlasingest-broker)_| | | | | | | |
 |[2.1 Credentials Poller](#21-credentials-poller)| | | | | | | |
 |[2.2 Spreadsheet to JSON Converter](#22-spreadsheet-to-json-converter)|F v4| | | | | | |
