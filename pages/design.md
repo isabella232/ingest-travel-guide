@@ -1,6 +1,6 @@
 # HCA Ingest Design
 ## Design Philosophy
-In the early 1970’s Alan Kay, a computer scientist working Xerox PARC proposed a new perspective of thinking about large-scale software systems. His background in Molecular Biology inspired him to consider software as a biological system as a means of enabling scaling and evolution. 
+In the early 1970’s [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay), a computer scientist working Xerox PARC proposed a new perspective of thinking about large-scale software systems. His background in Molecular Biology inspired him to consider software as a biological system as a means of enabling scaling and evolution. 
 
 He argued that if you build an passenger aircraft and a year later require an aircraft with twice the capacity you cannot just make it bigger by adding bits on. You have to redesign it and start again and this was the same problem he was seeing with software systems. On the other hand biological systems can grow and evolve without issue.
 
@@ -13,4 +13,4 @@ By building a system based a self contained cells that perform a single task tha
 ## References
 * [The Quest to Make Code Work Like Biology Just Took A Big Step](https://www.wired.com/2016/06/chef-just-took-big-step-quest-make-code-work-like-biology/)
 * [The Deep Insights of Alan Kay](http://mythz.servicestack.net/blog/2013/02/27/the-deep-insights-of-alan-kay/)
-* [Seven Concurrency Models in 7 Weeks](https://www.safaribooksonline.com/library/view/seven-concurrency-models/9781941222737/0
+* [Seven Concurrency Models in 7 Weeks](https://www.safaribooksonline.com/library/view/seven-concurrency-models/9781941222737/0)
