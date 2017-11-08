@@ -50,9 +50,9 @@ This approach allows for functions to be written in different languages and sepe
   + [6.3 Bundle Result](#63-bundle-result)
   + [6.4 Cleanup](#64-cleanup)
 * [7. Ingest Core](#7-ingest-core)
-  + [7.1 Ingest Core API]
-  + [7.2 Persistence]
-  + [7.3 State Management]  
+  + [7.1 Ingest Core API](#todo)
+  + [7.2 Persistence](#todo)
+  + [7.3 State Management](#todo) 
 * [8. Ingest Broker UI](#8-ingest-broker-ui)
   + [8.1 Action: Create Submission](#81-action-create-submission)
   + [8.2 Action: Download Spreadsheet](#82-action-download-spreadsheet)
@@ -66,8 +66,8 @@ This approach allows for functions to be written in different languages and sepe
   + [8.10 Display: Validation Errors](#810-display-validation-errors)
 * [9. Cross Cutting Concerns](#9-cross-cutting-concerns)
   + [9.1 Logging](#91-logging)
-  + [9.2 Authentication](#92-authentication)
-  + [9.3 Authorisation](#93-authorisation)  
+  + [9.2 Authentication](#todo)
+  + [9.3 Authorisation](#todo)  
 
 ## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
