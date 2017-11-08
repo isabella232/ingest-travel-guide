@@ -65,4 +65,5 @@
 |[8.10 Display: Validation Errors](#810-display-validation-errors)|0|P| | | | | | |
 |_[9. Cross Cutting Concerns](#9-cross-cutting-concerns)_||
 |[9.1 Logging](#91-logging)|0|0|P| | | | | |
-|[9.2 Authentication and Authorisation](#92-authentication-and-authorisation)|0|0|P|| | | | | |  
+|[9.2 Authentication](#92-authentication)|0|P|P|| | | | | |  
+|[9.3 Authorisation](#93-authorisation)|0|0|P|| | | | | |  
