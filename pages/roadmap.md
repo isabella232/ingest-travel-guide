@@ -10,7 +10,7 @@
 * v3 - For Metadata Schema Version 3
 * v4 - For Metadata Schema Version 4
 
-|Cell|Q3/18|M1|M2|M3|M4|M5|M6|M7|
+|Cell|Q3/17|M1|M2|M3|M4|M5|M6|M7|
 |----|--|--|--|--|--|--|--|--|
 |_[1. Ingest Broker API](#1-ingest-broker-apihttpsgithubcomhumancellatlasingest-broker-api)_||
 |[1.1 Submission Create](#11-submission-create)|0|F| | | | | | |
