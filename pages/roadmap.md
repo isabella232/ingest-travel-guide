@@ -41,6 +41,7 @@
 |_[4. Ingest Validator](#4-ingest-validatorhttpsgithubcomhumancellatlasingest-validator)_| | | | | | | |
 |[4.1 Metadata Validator/s](#41-metadata-validators)|M|P v4| | | | | | |
 |[4.2 FASTQ File Validator](#42-fastq-file-validator)|0|P| | | | | | |
+|[4.3 Image File Validator](#todo)|0|0| | | | | | |
 |_[5. Ingest Archiver](#5-ingest-archiverhttpsgithubcomhumancellatlasingest-archiver)_||
 |[5.1 HCA to USI Converter](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)|P v3|F v4| | | | | | |
 |[5.2 USI Submitter](#52-usi-submitter)|0|F| | | | | | |
@@ -52,6 +53,9 @@
 |[6.3 Bundle Result](#63-bundle-result)|P|P| | | | | | |
 |[6.4 Cleanup](#64-cleanup)|P|F| | | | | | |
 |_[7. Ingest Core](#7-ingest-core)_||
+|[7.1 Ingest Core API](#todo)|P|F| | | | | | |
+|[7.2 Persistence](#todo)|P|F| | | | | | |
+|[7.3 State Management](#todo)|P|F| | | | | | | 
 |_[8. Ingest Broker UI](#8-ingest-broker-ui)_| | | | | | | |
 |[8.1 Action: Create Submission](#81-action-create-submission)|P|P| | | | | | |
 |[8.2 Action: Download Spreadsheet](#82-action-download-spreadsheet)|P|P| | | | | | |
@@ -66,4 +70,4 @@
 |_[9. Cross Cutting Concerns](#9-cross-cutting-concerns)_||
 |[9.1 Logging](#91-logging)|0|0|P| | | | | |
 |[9.2 Authentication](#92-authentication)|0|P|P|| | | | | |  
-|[9.3 Authorisation](#93-authorisation)|0|0|P|| | | | | |  
+|[9.3 Authorisation](#93-authorisation)|0|M|P|| | | | | |  
