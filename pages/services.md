@@ -38,7 +38,7 @@ This approach allows for functions to be written in different languages and sepe
 * [4. Ingest Validator](#4-ingest-validatorhttpsgithubcomhumancellatlasingest-validator)
   + [4.1 Metadata Validator/s](#41-metadata-validators)
   + [4.2 FASTQ File Validator](#42-fastq-file-validator)
-  + [4.3 Image File Validator](#43-image-file-validator)
+  + [4.3 Image File Validator](#todo)
 * [5. Ingest Archiver](#5-ingest-archiverhttpsgithubcomhumancellatlasingest-archiver)
   + [5.1 HCA to USI Converter](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
   + [5.2 USI Submitter](#52-usi-submitter)
