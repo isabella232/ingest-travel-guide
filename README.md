@@ -18,8 +18,9 @@ Base on Patrick Kua's (@patkua) [The Travel Guide to Software Systems](https://w
 * [Services](pages/services.md)
 * [Goals](pages/goals.md)
 * [Roadmap](pages/roadmap.md)
+* [Flow](pages/flow.md)
 
 ## Sites
-* [Technology](pages/technology.md)
+* [Technology](_pages/technology.md)
 
 ## Fun
