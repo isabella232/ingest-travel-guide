@@ -3,6 +3,8 @@ The services of the Ingest component broken down into self-contained functions o
 
 Please see the [Design Philosophy](../design/#design-philosophy) for an explaination for this approach.
 
+Please see [Allocation](../allocation) for current responsibilites.
+
 ## Services and Cells
 * __[1. Ingest Broker API](../components/ingest-broker-api)__
   + [1.1 Submission Create](../components/ingest-broker-api/#11-submission-create)
@@ -39,7 +41,7 @@ Please see the [Design Philosophy](../design/#design-philosophy) for an explaina
   + [5.2 USI Submitter](../components/ingest-archiver/#52-usi-submitter)
   + [5.3 USI Poller](../components/ingest-archiver/#53-usi-poller)
   + [5.4 USI Accession Persister](../components/ingest-archiver/#54-usi-accession-persister)
-*__ [6. Ingest Exporter](../components/ingest-exporter)__
+* __[6. Ingest Exporter](../components/ingest-exporter)__
   + [6.1 Bundle Generator](../components/ingest-exporter/#61-bundle-generator)
   + [6.2 Bundle Stager](../components/ingest-exporter/#62-bundle-stager)
   + [6.3 Bundle Result](../components/ingest-exporter/#63-bundle-result)
