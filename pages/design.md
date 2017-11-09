@@ -12,7 +12,7 @@ By building a system based a self-contained "cells" that perform a single task a
 
 ## Implementation Proposal
 
-1. Define services, high level areas of functionality, for the ingest component
+1. Define [services](../services), high level areas of functionality, for the ingest component
 2. Map out the "cells", self-contained functions, within each service and the define messages passed betwen them
 3. Creating orchestration with dummy (no functionality) or mocks (simulated functionality) for each cell
 4. Replacing dummy and mock cells with prototypes

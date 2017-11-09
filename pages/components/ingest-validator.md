@@ -1,8 +1,8 @@
-## 4. [Ingest Validator](https://github.com/HumanCellAtlas/ingest-validator)
+# 4. [Ingest Validator](https://github.com/HumanCellAtlas/ingest-validator)
 
 * Provides validation for HCA DCP metadata and data files. 
 
-### 4.1 Metadata Validator/s
+## 4.1 Metadata Validator/s
 * _Trigger_
     * Event: Metadata created
     * Event: Metadata updated
@@ -26,7 +26,7 @@ Perform the appropriate JSON Schema metadata validation
         * Metadata JSON entity
         * Validation results JSON
         
-### 4.2 FASTQ File Validator
+## 4.2 FASTQ File Validator
 * _Trigger_
     * Event: File updated
 * _Input_
@@ -44,3 +44,6 @@ Perform the appropriate JSON Schema metadata validation
         * Submission uuid
         * A reference to a data file in an accessible store
         * Validation results JSON
+        
+## 4.3 Image File Validator
+ * TODO
