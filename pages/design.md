@@ -10,6 +10,30 @@ With the move to cloud-based software Alan Kay’s work has come to the fore aga
 
 By building a system based a self contained cells that perform a single task that communicate by messaging we can build a system with minimal dependencies. 
 
+## Implementation Proposal
+
+1. Map out all the services in the component and the "cells" within each service and the messages between them
+2. Creating the orchestration with dummy (no functionality) or mocks (simulated functionality) for each cell
+3. Replacing dummy and mock cells with prototypes
+4. Evolve the prototype cells to complete implementations
+5. Replace completed cells with if and when needed
+
+## Advantages
+
+* Cells can be implemented in a choice of languages and the language be changed at a cell level as limitations are reached
+    * Suggested progression:
+        * Python
+        * NodeJS (JavaScript)
+        * Java (or other JVM languages)
+        * Go/C/C++ 
+* Calls can be deployed using different methods and these can be changed at a cell level as a limitation is reached
+    * Suggested progression:
+        * AWS Lambda
+        * Docker Container
+        * Cloud Dedicated Instance (EC2)
+        * Local VM
+* As cells are small they should take less than a day to reimplement from scatch if needed
+
 ## References
 * [The Quest to Make Code Work Like Biology Just Took A Big Step](https://www.wired.com/2016/06/chef-just-took-big-step-quest-make-code-work-like-biology/)
 * [The Deep Insights of Alan Kay](http://mythz.servicestack.net/blog/2013/02/27/the-deep-insights-of-alan-kay/)
