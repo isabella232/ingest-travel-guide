@@ -39,7 +39,7 @@ This approach allows for functions to be written in different languages and sepe
   + [4.1 Metadata Validator/s](#41-metadata-validators)
   + [4.2 FASTQ File Validator](#42-fastq-file-validator)
   + [4.3 Image File Validator](#todo)
-* [5. Ingest Archiver](../components/ingest-archiver.md)
+* [5. Ingest Archiver](../components/ingest-archiver)
   + [5.1 HCA to USI Converter](#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
   + [5.2 USI Submitter](#52-usi-submitter)
   + [5.3 USI Poller](#53-usi-poller)
