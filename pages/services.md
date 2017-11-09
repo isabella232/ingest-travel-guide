@@ -3,8 +3,8 @@ The services of the Ingest component broken down into self-contained functions o
 
 Please see the [Design Philosophy](../design/#design-philosophy) for an explaination for this approach.
 
-## Contents
-* [1. Ingest Broker API](../components/ingest-broker-api)
+## Services and Cells
+* __[1. Ingest Broker API](../components/ingest-broker-api)__
   + [1.1 Submission Create](../components/ingest-broker-api/#11-submission-create)
   + [1.2 Get Credentials](../components/ingest-broker-api/#12-get-credentials)
   + [1.3 Template Spreadsheet Download](../components/ingest-broker-api/#13-template-spreadsheet-download)
@@ -21,34 +21,34 @@ Please see the [Design Philosophy](../design/#design-philosophy) for an explaina
   + [1.14 List Files for Submission](../components/ingest-broker-api/#114-list-files-for-submission)
   + [1.15 List Analyses for Submission](../components/ingest-broker-api/#115-list-analyses-for-submission)
   + [1.16 List Bundles for Submission](../components/ingest-broker-api/#116-list-bundles-for-submission)
-* [2. Ingest Broker](../components/ingest-broker)
+* __[2. Ingest Broker](../components/ingest-broker)__
   + [2.1 Credentials Poller](../components/ingest-broker/#21-credentials-poller)
   + [2.2 Spreadsheet to JSON Converter](../components/ingest-broker/#22-spreadsheet-to-json-converter)
   + [2.3 Metadata JSON Collection Validator](../components/ingest-broker/#23-metadata-json-collection-validator)
   + [2.4 Metadata JSON Collection UUID Scheduler](../components/ingest-broker/#24-metadata-json-collection-uuid-scheduler)
   + [2.5 Metadata JSON UUID Assigner](../components/ingest-broker/#25-metadata-json-uuid-assigner)
   + [2.6 Metadata JSON Persister](../components/ingest-broker/#26-metadata-json-persister)
-* [3. Ingest Accessioner](../components/ingest-accessioner)
+* __[3. Ingest Accessioner](../components/ingest-accessioner)__
   + [3.1 HCA Accessioner](../components/ingest-accessioner/#31-hca-accessioner)
-* [4. Ingest Validator](../components/ingest-validator)
+* __[4. Ingest Validator](../components/ingest-validator)__
   + [4.1 Metadata Validator/s](../components/ingest-validator/#41-metadata-validators)
   + [4.2 FASTQ File Validator](../components/ingest-validator/#42-fastq-file-validator)
   + [4.3 Image File Validator](../components/ingest-validator/#43-image-file-validator)
-* [5. Ingest Archiver](../components/ingest-archiver)
+* __[5. Ingest Archiver](../components/ingest-archiver)__
   + [5.1 HCA to USI Converter](../components/ingest-archiver/#51-hca-to-usi-converterhttpsgithubcomhumancellatlasingest-archiverblobmasterarchiverconverterpy)
   + [5.2 USI Submitter](../components/ingest-archiver/#52-usi-submitter)
   + [5.3 USI Poller](../components/ingest-archiver/#53-usi-poller)
   + [5.4 USI Accession Persister](../components/ingest-archiver/#54-usi-accession-persister)
-* [6. Ingest Exporter](../components/ingest-exporter)
+*__ [6. Ingest Exporter](../components/ingest-exporter)__
   + [6.1 Bundle Generator](../components/ingest-exporter/#61-bundle-generator)
   + [6.2 Bundle Stager](../components/ingest-exporter/#62-bundle-stager)
   + [6.3 Bundle Result](../components/ingest-exporter/#63-bundle-result)
   + [6.4 Cleanup](../components/ingest-exporter/#64-cleanup)
-* [7. Ingest Core](../components/ingest-core)
+* __[7. Ingest Core](../components/ingest-core)__
   + [7.1 Ingest Core API](../components/ingest-core/#71-ingest-core-api)
   + [7.2 Persistence](../components/ingest-core/#73-state-management)
   + [7.3 State Management](../components/ingest-core/#73-state-management) 
-* [8. Ingest Broker UI](../components/ingest-broker-ui)
+* __[8. Ingest Broker UI](../components/ingest-broker-ui)__
   + [8.1 Action: Create Submission](../components/ingest-broker-ui/#81-action-create-submission)
   + [8.2 Action: Download Spreadsheet](../components/ingest-broker-ui/#82-action-download-spreadsheet)
   + [8.3 Action: Submit Spreadsheet](../components/ingest-broker-ui/#83-action-submit-spreadsheet)
@@ -59,7 +59,7 @@ Please see the [Design Philosophy](../design/#design-philosophy) for an explaina
   + [8.8 Display: File Details](../components/ingest-broker-ui/#88-display-file-details)
   + [8.9 Display: Credentials](../components/ingest-broker-ui/#89-display-credentials)
   + [8.10 Display: Validation Errors](../components/ingest-broker-ui/#810-display-validation-errors)
-* [9. Cross-Cutting Concerns](../components/cross-cutting-concerns)
+* __[9. Cross-Cutting Concerns](../components/cross-cutting-concerns)__
   + [9.1 Logging](../components/cross-cutting-concerns/#91-logging)
   + [9.2 Authentication](../components/cross-cutting-concerns/#92-authentication)
   + [9.3 Authorisation](../components/cross-cutting-concerns/#93-authorisation) 

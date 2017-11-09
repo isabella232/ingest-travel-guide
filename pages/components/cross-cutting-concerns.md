@@ -1,9 +1,10 @@
-## 9. Cross-Cutting Concerns
+# 9. Cross-Cutting Concerns
 
-### 9.1 Logging
+## 9.1 Logging
 * Define a common format for logging of events and errors
+* Suggestion in [Logging](../../logging)
 
-### 9.2 Authentication
+## 9.2 Authentication
 * Secure external facing [Ingest Broker API](#1-ingest-broker-api) endpoints
 
-### 9.3 Authorisation
+## 9.3 Authorisation

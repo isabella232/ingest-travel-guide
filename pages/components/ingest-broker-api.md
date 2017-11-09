@@ -1,157 +1,157 @@
-## 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
+# 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
-* Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest Broker UI](#8-ingest-broker-ui) and [Ingest Core](#7-ingest-core).
+Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest Broker UI](#8-ingest-broker-ui) and [Ingest Core](#7-ingest-core).
 
-### 1.1 Submission Create
-* _Trigger_
+## 1.1 Submission Create
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * none
-* _Process_
+* __Process__
     * Generate a submission uuid
     * Persist uuid
-* _Output_
+* __Output__
     * Event: Submission created
     * Submission uuid
 
-### 1.2 Get Credentials
-* _Trigger_
+## 1.2 Get Credentials
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * Submission uuid
-* _Ouput_
+* __Ouput__
     * Credentials
     
-### 1.3 Template Spreadsheet Download
-* _Trigger_
+## 1.3 Template Spreadsheet Download
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * none
-* _Output_
+* __Output__
     * A template XLSX spreadsheet      
     
-### 1.4 Spreadsheet Upload
-* _Trigger_
+## 1.4 Spreadsheet Upload
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * Submission uuid
     * A XLSX spreadsheet file
-* _Process_
+* __Process__
     * Check uuid is in the correct format
     * Check submission uuid is known to the system
     * Check file is a valid XLSX format file 
     * Accept file and persist it to an accessible store
-* _Output_
+* __Output__
     * Event: New spreadsheet uploaded
     * A reference to the XLSX spreadsheet file in an accessible store
-* _Error conditions_
+* __Error conditions__
     * Submission uuid is invalid
     * Submission uuid is unknown
     * Uploaded file is something other than a XLSX spreadsheet
 
-### 1.5 Metadata Create
-* _Trigger_
+## 1.5 Metadata Create
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * A valid submission uuid
     * A metadata JSON entity
-* _Output_
+* __Output__
     * Event: Metadata uuid requested
     * A valid submission uuid
     * A metadata JSON entity
 
-### 1.6 Metadata Update
-* _Trigger_
+## 1.6 Metadata Update
+* __Trigger__
     * HTTP PUT
-* _Input_
+* __Input__
     * A valid submission uuid
     * A metadata uuid
     * A metadata JSON entity
-* _Output_
+* __Output__
     * Event: Metadata update requested
     * A valid submission uuid
     * A metadata uuid
     * A metadata JSON entity
 
-### 1.7 Metadata Delete
-* _Trigger_
+## 1.7 Metadata Delete
+* __Trigger__
     * HTTP DELETE
-* _Input_
+* __Input__
     * A valid submission uuid
     * A metadata uuid
-* _Output_
+* __Output__
     * Event: Metadata delete requested
     * A valid submission uuid
     * A metadata uuid
 
-### 1.8 Validate Sample
-* _Trigger_
+## 1.8 Validate Sample
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * A valid submission uuid
     * A sample metadata
-* _Output_
+* __Output__
     * Validation results
     
-### 1.9 Complete Submission
-* _Trigger_
+## 1.9 Complete Submission
+* __Trigger__
     * HTTP POST
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
 
-### 1.10 List All Submissions
-* _Trigger_
+## 1.10 List All Submissions
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * none
-* _Output_
+* __Output__
     * A list of submissions
     
-### 1.11 Get Submission Details
-* _Trigger_
+## 1.11 Get Submission Details
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * Details of a submission
 
-### 1.12 List Project for Submission
-* _Trigger_
+## 1.12 List Project for Submission
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * A project
 
-### 1.13 List Samples for Submission
-* _Trigger_
+## 1.13 List Samples for Submission
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * A list of samples
 
-### 1.14 List Files for Submission
-* _Trigger_
+## 1.14 List Files for Submission
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * A list of files
 
-### 1.15 List Analyses for Submission
-* _Trigger_
+## 1.15 List Analyses for Submission
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * A list of analyses
     
-### 1.16 List Bundles for Submission
-* _Trigger_
+## 1.16 List Bundles for Submission
+* __Trigger__
     * HTTP GET
-* _Input_
+* __Input__
     * A valid submission uuid
-* _Output_
+* __Output__
     * A list of bundles  

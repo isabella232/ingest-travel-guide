@@ -1,17 +1,17 @@
-## 3. [Ingest Accessioner](https://github.com/HumanCellAtlas/ingest-accessioner)
+# 3. [Ingest Accessioner](https://github.com/HumanCellAtlas/ingest-accessioner)
 
 * Provides HCA format accession numbers where accessions are not available from archives.
 
-### 3.1 HCA Accessioner
-* _Trigger_
+## 3.1 HCA Accessioner
+* __Trigger__
    * Event: Metadata validation successful?
-* _Input_
+* __Input__
    * A valid submission uuid
    * A metadata uuid
-* _Process_ 
+* __Process__ 
    * Generate a new HCA accession
    * Persist mapping of metadata uuid to HCA accession
-* _Output_
+* __Output__
    * Event: Metadata accessioned
    * Metadata uuid
    * HCA accession
