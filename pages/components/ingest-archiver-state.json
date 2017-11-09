@@ -12,14 +12,14 @@
     },
     "USI Poller": {
       "Type": "Pass",
-      "Next": "ChoiceState"
+      "Next": "Is Accession Available?"
     },
     "Wait": {
       "Type": "Wait",
       "Seconds": 10,
       "Next": "USI Poller"
     },
-    "ChoiceState": {
+    "Is Accession Available?": {
       "Type": "Choice",
       "Choices": [
         {
@@ -33,7 +33,7 @@
           "Next": "USI Accession Persister"
         }
       ],
-      "Default": "USI Poller"
+      "Default": "Wait"
     },
     "USI Accession Persister": {
       "Type": "Pass",

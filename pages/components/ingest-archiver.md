@@ -1,14 +1,68 @@
+---
+layout: default
+title: Ingest Archiver
+---
 # 5. [Ingest Archiver](https://github.com/HumanCellAtlas/ingest-archiver)
 
-* Performs submission to non-HCA archives. retreiving and storing accessions where available.
+Performs submission to non-HCA archives. retreiving and storing accessions where available.
+
+### Code Status
 
 [![Ingest Archiver Build Status](https://travis-ci.org/HumanCellAtlas/ingest-archiver.svg?branch=master)](https://travis-ci.org/HumanCellAtlas/ingest-archiver)
 [![Maintainability](https://api.codeclimate.com/v1/badges/8ce423001595db4e6de7/maintainability)](https://codeclimate.com/github/HumanCellAtlas/ingest-archiver/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8ce423001595db4e6de7/test_coverage)](https://codeclimate.com/github/HumanCellAtlas/ingest-archiver/test_coverage)
 
-## State Transition
+## 5.0 State Transition
 
 ![alt text](../../../images/ingest-accessioner-states.png "Ingest Archiver State Transition")
+
+
+### ASL
+```json
+{
+  "Comment": "Performs submission to non-HCA archives. retreiving and storint accessions where available.",
+  "StartAt": "HCA to USI Converter",
+  "States": {
+    "HCA to USI Converter": {
+      "Type": "Pass",
+      "Next": "USI Submitter"
+    },
+    "USI Submitter": {
+      "Type": "Pass",
+      "Next": "USI Poller"
+    },
+    "USI Poller": {
+      "Type": "Pass",
+      "Next": "Is Accession Available?"
+    },
+    "Wait": {
+      "Type": "Wait",
+      "Seconds": 10,
+      "Next": "USI Poller"
+    },
+    "Is Accession Available?": {
+      "Type": "Choice",
+      "Choices": [
+        {
+          "Variable": "$.state",
+          "StringEquals": "pending",
+          "Next": "Wait"
+        },
+        {
+          "Variable": "$.state",
+          "NumericEquals": "complete",
+          "Next": "USI Accession Persister"
+        }
+      ],
+      "Default": "Wait"
+    },
+    "USI Accession Persister": {
+      "Type": "Pass",
+      "End": true
+    }
+  }
+}
+```
 
 ## 5.1 [HCA to USI Converter](https://github.com/HumanCellAtlas/ingest-archiver/blob/master/archiver/converter.py)
 Takes HCA sample JSON and returns USI sample JSON
@@ -140,7 +194,7 @@ Polls USI for the accession of a sample
     * [USI Submission ID](../../data/#usi-submission-id)
     * [Biosamples Accession](../../data/#biosamples-accession)
 * __Output Examples__
-    * Waiting for accession
+    * Pending (Waiting for accession)
 ```json
 {
 	"submission-uuid": "a8797226-ebd3-45ff-94bf-ed03292b532e",
@@ -149,7 +203,7 @@ Polls USI for the accession of a sample
     "state": "pending"
 }
 ```
-    * Accession available
+    * Complete (Accession available)
 ```json
 {
     "submission-uuid": "a8797226-ebd3-45ff-94bf-ed03292b532e",
