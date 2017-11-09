@@ -25,23 +25,23 @@ An example of this approach is the [Ingest Archiver](../components/ingest-archiv
 ## Advantages
 
 * Cells can be implemented in a choice of languages and the language be changed at a cell level as limitations of the languages are reached
-    * Suggested progression:
-        * Python 3
-        * NodeJS (JavaScript ES6)
-        * Java (or other JVM languages)
-        * Go/C/C++ 
+    * Suggested progression based on cloud provider support:
+        * [Python 3](https://www.python.org/)
+        * [Node.js](https://nodejs.org/en/) (JavaScript ES6)
+        * [Java 8](http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html) (or other JVM languages e.g. [Kotlin](https://kotlinlang.org/))
+        * [Go](https://golang.org/)/C/C++ 
 * Calls can be deployed using different plaforms and these can be changed at a cell level as a limitation of the platform is reached
     * Suggested progression:
-        * FaaS (AWS Lambda, Cloud Functions)
-        * Docker Container (Kubernetes, ECS)
-        * Cloud Dedicated Instance (EC2)
-        * Local Dedicated VM
+        * Serverless ([AWS Lambda](https://aws.amazon.com/lambda), [Cloud Functions](https://cloud.google.com/functions/))
+        * Container ([Kubernetes](https://kubernetes.io/), [ECS](https://aws.amazon.com/ecs))
+        * Cloud VM ([EC2](https://aws.amazon.com/ec2/))
+        * Local VM
 * As cells are small they should take less than a day to reimplement from scatch if needed
 * Orchestration between cells and services can use methods suitable for the platform:
     * Programatic Orchestration (Python Script)
     * Platform Specific Orchestration (AWS Step Functions)
     * Platform Specific Messaging (AWS SNS, RabbitMQ)
-    * Cross plaform messaging (Webhooks)
+    * Cross plaform messaging ([Webhooks](https://en.wikipedia.org/wiki/Webhook), [Event Gateway](https://serverless.com/event-gateway/))
 
 ## References
 * [The Quest to Make Code Work Like Biology Just Took A Big Step](https://www.wired.com/2016/06/chef-just-took-big-step-quest-make-code-work-like-biology/)
