@@ -1,5 +1,7 @@
 # Ingest Specification
 
+WARNING: This is the 0.1v specification and has not yet been updated to reflect Q3 demo or Q4 goals.
+
 ## Overview
 The Ingestion Component will be responsible for the intake of biomolecular data into the Human Cell Atlas (HCA) Data Coordination Platform (DCP). In particular, the Ingest API will validate all biomolecular data received before attempting to persist the data into the HCA DCP data storage system (DSS).
 
