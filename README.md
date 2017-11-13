@@ -26,3 +26,8 @@ Base on Patrick Kua's (@patkua) [The Travel Guide to Software Systems](https://w
 * [Technology](_pages/technology.md)
 
 ## Fun
+
+## Running Locally
+```
+bundle exec jekyll serve
+```

@@ -1,20 +1,38 @@
 # Ingest Specification
 
-WARNING: This is the 0.1v specification and has not yet been updated to reflect Q3 demo or Q4 goals.
-
 ## Overview
-The Ingestion Component will be responsible for the intake of biomolecular data into the Human Cell Atlas (HCA) Data Coordination Platform (DCP). In particular, the Ingest API will validate all biomolecular data received before attempting to persist the data into the HCA DCP data storage system (DSS).
+The Ingestion Component will be responsible for the intake of biomolecular data into the [Human Cell Atlas](https://www.humancellatlas.org) (HCA) Data Coordination Platform (DCP). In particular, the Ingest API will validate all biomolecular data received before attempting to persist the data into the HCA DCP data storage system (DSS).
 
-The Ingestion Component has 6 major subcomponents:
-* Ingest Brokers - any submitter-facing tool for capturing data into the DCP
-* Staging Service - service for staging of data-files
-* Ingest API - REST API by which data and metadata is pushed to the HCA DCP, either by brokers or by systems programmed to interact directly with the HCA, e.g. LIMS systems
-* Accessioning service - a service for assigning both UUIDs and human-readable accession numbers to supplied metadata documents
-* Ingest Datastore - a system used to collect and temporarily store metadata internally by the Ingestion Service during the ingest process.
-* Validation Service - Service within the ingest service that supports data and metadata validation
-* Tracking Service - service for tracking state of any submission known to the ingest service
+The Ingestion Component has 6 services:
+* __Ingest Brokers__ - any submitter-facing tool for capturing data into the DCP
+* __Staging Service__ - service for staging of data-files
+* __Ingest API__ - REST API by which data and metadata is pushed to the HCA DCP, either by brokers or by systems programmed to interact directly with the HCA, e.g. LIMS systems
+* __Accessioning service__ - a service for assigning both UUIDs and human-readable accession numbers to supplied metadata documents
+* __Ingest Datastore__ - a system used to collect and temporarily store metadata internally by the Ingestion Service during the ingest process.
+* __Validation Service__ - Service within the ingest service that supports data and metadata validation
+* __Tracking Service__ - service for tracking state of any submission known to the ingest service
+
+Revised list merged with the above:
+
+* Ingest Brokers maps to: 
+    * [Ingest Broker UI](../components/ingest-broker-ui) links to [Broker Web UI](#broker-web-ui)
+    * [Ingest Broker API](../components/ingest-broker-api) links to [Broker REST API](#broker-rest-api)
+    * [Ingest Broker](../components/ingest-broker) links to [Broker Web UI](#broker-web-ui)
+* Accessioning service maps to:  
+    * [Ingest Accessioner](../components/ingest-accessioner) (for HCA accessions)
+    * [Ingest Archiver](../components/ingest-archiver) (for archive accessions)
+* Validation Service maps to:
+    * [Ingest Validator](../components/ingest-validator)
+* Ingest API and Ingest Datastore are currently included in:
+    * [Ingest Core](../components/ingest-core)
+* Not mentioned:
+    * [Ingest Exporter](../components/ingest-exporter)
+* Missing:
+    * Staging Service
+    * Tracking Service links to [Tracking Service Requirements](#tracking-service-requirements)
 
 ## Requirements
+
 ### General
 1. Where possible, adhere to the HCA principle of bringing compute to data, instead of data to compute.
 2. The Ingestion Service should provide its own web UI, knowns as the “broker”, but should also provide an API upon which 3rd parties can build their own brokers.
