@@ -46,7 +46,7 @@ The quarterly goals that follow are mapped to the service or function that imple
 #### d. Ingest supports export of a single bundle to datastore from multiple “piecemeal” submissions
 * [6. Ingest Exporter](../components/ingest-exporter)
 
-### 5. Ensure clean separation between content metadata schemas and ingest created/required metadata (EBI/UCSC)
+### 5. Ensure clean separation between content metadata schemas and ingest created/required metadata (EBI/UCSC) [HCA-267](https://www.ebi.ac.uk/panda/jira/browse/HCA-267)
 #### a. Ingest API utilises pre- and post- ingest schemas for validation
 * [4.1 Metadata Validator/s](../components/ingest-validator/#41-metadata-validators)
 
@@ -54,7 +54,7 @@ The quarterly goals that follow are mapped to the service or function that imple
 * [6.1 Bundle Generator](../components/ingest-exporter/#61-bundle-generator)
 
 ### 6. Establish integrated test suite for ingest service and its interactions with other components, including authentication.
-* [1. Ingest Broker API](../components/ingest-broker-api)
+* [1. Ingest Broker API](../components/ingest-broker-api) [HCA-269](https://www.ebi.ac.uk/panda/jira/browse/HCA-269)
 
-### 7. Specifications stable; all APIs sufficiently documented to support integration and broker submission efforts
+### 7. Specifications stable; all APIs sufficiently documented to support integration and broker submission efforts [HCA-270](https://www.ebi.ac.uk/panda/jira/browse/HCA-270)
 * [1. Ingest Broker API](../components/ingest-broker-api)
