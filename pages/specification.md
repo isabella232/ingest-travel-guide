@@ -15,7 +15,7 @@ The Ingestion Component has 6 services:
 Revised list merged with the above:
 
 * Ingest Brokers maps to: 
-    * [Ingest Broker UI](../components/ingest-broker-ui) links to [Broker Web UI](#broker-web-ui)
+    * [Ingest UI](../components/ingest-ui) links to [Broker Web UI](#broker-web-ui)
     * [Ingest Broker API](../components/ingest-broker-api) links to [Broker REST API](#broker-rest-api)
     * [Ingest Broker](../components/ingest-broker) links to [Broker Web UI](#broker-web-ui)
 * Accessioning service maps to:  

@@ -1,6 +1,6 @@
 # 1. [Ingest Broker API](https://github.com/HumanCellAtlas/ingest-broker-api)
 
-Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest Broker UI](#8-ingest-broker-ui) and [Ingest Core](#7-ingest-core).
+Provides an [API Gateway](http://microservices.io/patterns/apigateway.html) between [Ingest UI](#8-ingest-ui) and [Ingest Core](#7-ingest-core).
 
 ## 1.1 Submission Create
 * __Trigger__

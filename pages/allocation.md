@@ -46,17 +46,17 @@
 |[7.1 Ingest Core API](../components/ingest-core/#71-ingest-core-api)| | | | |
 |[7.2 Persistence](../components/ingest-core/#72-persistence)| | | | |
 |[7.3 State Management](../components/ingest-core/#73-state-management)| | | | |
-|__[8. Ingest Broker UI](../components/ingest-broker-ui)__|Alegria|Dan|Gabby| |
-|[8.1 Action: Create Submission](../components/ingest-broker-ui/#81-action-create-submission)| | | | |
-|[8.2 Action: Download Spreadsheet](../components/ingest-broker-ui/#82-action-download-spreadsheet)| | | | |
-|[8.3 Action: Submit Spreadsheet](../components/ingest-broker-ui/#83-action-submit-spreadsheet)| | | | |
-|[8.4 Action: Complete Submission](../components/ingest-broker-ui/#84-action-complete-submission)| | | | |
-|[8.5 Action: Update Ontology in Sample](../components/ingest-broker-ui/#85-action-update-ontology-in-sample)| | | | |
-|[8.6 Display: Submission List](../components/ingest-broker-ui/#86-display-submission-list)| | | | |
-|[8.7 Display: Submission Details](../components/ingest-broker-ui/#87-display-submission-details)| | | | |
-|[8.8 Display: File Details](../components/ingest-broker-ui/#88-display-file-details)| | | | |
-|[8.9 Display: Credentials](../components/ingest-broker-ui/#89-display-credentials)| | | | |
-|[8.1x Display: Validation Errors](../components/ingest-broker-ui/#81x-display-validation-errors)| | | | |
+|__[8. Ingest UI](../components/ingest-ui)__|Alegria|Dan|Gabby| |
+|[8.1 Action: Create Submission](../components/ingest-ui/#81-action-create-submission)| | | | |
+|[8.2 Action: Download Spreadsheet](../components/ingest-ui/#82-action-download-spreadsheet)| | | | |
+|[8.3 Action: Submit Spreadsheet](../components/ingest-ui/#83-action-submit-spreadsheet)| | | | |
+|[8.4 Action: Complete Submission](../components/ingest-ui/#84-action-complete-submission)| | | | |
+|[8.5 Action: Update Ontology in Sample](../components/ingest-ui/#85-action-update-ontology-in-sample)| | | | |
+|[8.6 Display: Submission List](../components/ingest-ui/#86-display-submission-list)| | | | |
+|[8.7 Display: Submission Details](../components/ingest-ui/#87-display-submission-details)| | | | |
+|[8.8 Display: File Details](../components/ingest-ui/#88-display-file-details)| | | | |
+|[8.9 Display: Credentials](../components/ingest-ui/#89-display-credentials)| | | | |
+|[8.1x Display: Validation Errors](../components/ingest-ui/#81x-display-validation-errors)| | | | |
 |__[9. Cross Cutting Concerns](../components/cross-cutting-concerns)__| |Dan| | |
 |[9.1 Logging](../components/cross-cutting-concerns/#91-logging)| | | | |
 |[9.2 Authentication](../components/cross-cutting-concerns/#92-authentication)| | |TSI| | 

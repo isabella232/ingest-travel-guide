@@ -1,4 +1,4 @@
-# [8. Ingest Broker UI](#8-ingest-broker-ui)
+# [8. Ingest UI](#8-ingest-ui)
 
 * Provides a web user interface to the [Ingest Broker API](#1-ingest-broker-api).
 * Components are UI components that call a method on the broker API to perform an action or to retreive data for rendering.

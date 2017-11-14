@@ -27,7 +27,7 @@ The quarterly goals that follow are mapped to the service or function that imple
 ### 3. Implement first version of broker submission UI (For more details see MVP Doc)
 #### a. Support template download, metadata upload, validation results and submission review based on broker UI mock-ups and on user interview feedback
 * [1. Ingest Broker API](../components/ingest-broker-api)
-* [8. Ingest Broker UI](../components/ingest-broker-ui)
+* [8. Ingest UI](../components/ingest-ui)
 
 #### b. Support ingestion of metadata content via XLSX format spreadsheet upload and include validation reports
 * [1.3 Template Spreadsheet Download](../components/ingest-broker-api/#13-template-spreadsheet-download)
@@ -35,7 +35,7 @@ The quarterly goals that follow are mapped to the service or function that imple
 * [2.2 Spreadsheet to JSON Converter](../components/ingest-broker/##22-spreadsheet-to-json-converter)
 
 #### c. Interface to add or edit fields that require an ontology terms before completing a submission.
-* [8.4 Action: Complete Submission](../components/ingest-broker-ui/#84-action-complete-submission)
+* [8.4 Action: Complete Submission](../components/ingest-ui/#84-action-complete-submission)
 
 ### 4. Ingestion service stable and scales over exemplar datasets from pilot submitters (For more details see MVP Doc)
 #### a. Ingest service integrated with datastore and secondary analysis pipeline for complete data flow through designated APIs.
