@@ -53,8 +53,8 @@ The quarterly goals that follow are mapped to the service or function that imple
 #### b. Ingest generates metadata schema compliant content including ingest-assigned fields (e.g. UUIDs, accessions, update dates)
 * [6.1 Bundle Generator](../components/ingest-exporter/#61-bundle-generator)
 
-### 6. Establish integrated test suite for ingest service and its interactions with other components, including authentication.
-* [1. Ingest Broker API](../components/ingest-broker-api) [HCA-269](https://www.ebi.ac.uk/panda/jira/browse/HCA-269)
+### 6. Establish integrated test suite for ingest service and its interactions with other components, including authentication. [HCA-269](https://www.ebi.ac.uk/panda/jira/browse/HCA-269)
+* [1. Ingest Broker API](../components/ingest-broker-api) 
 
 ### 7. Specifications stable; all APIs sufficiently documented to support integration and broker submission efforts [HCA-270](https://www.ebi.ac.uk/panda/jira/browse/HCA-270)
 * [1. Ingest Broker API](../components/ingest-broker-api)
