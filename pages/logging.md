@@ -9,7 +9,7 @@ Consider: [GELF Format](http://docs.graylog.org/en/2.2/pages/gelf.html)
 
 Logging is an append-only, read-only, user interface
 
-## Log Meesages Content
+## Log Messages Content
 * Unique correlation ID "edge-to-edge" 
   * See AWS XRay/Dapper/Zipkin
   * Trackable back to source action
