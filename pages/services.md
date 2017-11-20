@@ -5,6 +5,9 @@ Please see the [Design Philosophy](../design/#design-philosophy) for an explaina
 
 Please see [Allocation](../allocation) for current responsibilites.
 
+## Dependencies
+![Dependency Graph]({{ site.baseurl }}{% link images/ingest-service-dependencies.png %} "Ingest Service Dependency Graph")
+
 ## Services and Cells
 * __[1. Ingest Broker API](../components/ingest-broker-api)__
   + [1.1 Submission Create](../components/ingest-broker-api/#11-submission-create)
