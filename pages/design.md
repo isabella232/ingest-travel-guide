@@ -38,7 +38,7 @@ An example of this approach is the [Ingest Archiver](../components/ingest-archiv
         * Local VM
 * As cells are small they should take less than a day to reimplement from scatch if needed
 * Orchestration between cells and services can use methods suitable for the platform:
-    * Programatic Orchestration (Python Script)
+    * Programatic Orchestration (Python Script) using a [Function Director Pattern](https://github.com/openfaas/faas/blob/master/guide/chaining_functions.md#function-director-pattern).
     * Platform Specific Orchestration (AWS Step Functions)
     * Platform Specific Messaging (AWS SNS, RabbitMQ)
     * Cross plaform messaging ([Webhooks](https://en.wikipedia.org/wiki/Webhook), [Event Gateway](https://serverless.com/event-gateway/))
