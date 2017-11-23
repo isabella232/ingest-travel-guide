@@ -18,22 +18,10 @@
 |Cell|Q3/17|M1|M2|M3|M4|M5|M6|M7|
 |----|--|--|--|--|--|--|--|--|
 |__[1. Ingest Broker API](../components/ingest-broker-api)__||
-|[1.1 Submission Create](../components/ingest-broker-api/#11-submission-create)|x|C| | | | | | |
-|[1.2 Get Credentials](../components/ingest-broker-api/#12-get-credentials)|x|C| | | | | | |
-|[1.3 Template Spreadsheet Download](../components/ingest-broker-api/#13-template-spreadsheet-download)|x|C| | | | | | |
-|[1.4 Spreadsheet Upload](../components/ingest-broker-api/#14-spreadsheet-upload)|x|C| | | | | | |
-|[1.5 Metadata Create](../components/ingest-broker-api/#15-metadata-create)|x|C| | | | | | |
-|[1.6 Metadata Update](../components/ingest-broker-api/#16-metadata-update)|x|P| | | | | | |
-|[1.7 Metadata Delete](../components/ingest-broker-api/#17-metadata-delete)|x|x| | | | | | |
-|[1.8 Validate Sample](../components/ingest-broker-api/#18-validate-sample)|x|P| | | | | | |
-|[1.9 Complete Submission](../components/ingest-broker-api/#19-complete-submission)|x|C| | | | | | |
-|[1.1x List All Submissions](../components/ingest-broker-api/#11x-list-all-submissions)|x|C| | | | | | |
-|[1.11 Get Submission Details](../components/ingest-broker-api/#111-get-submission-details)|x|C| | | | | | |
-|[1.12 List Project for Submission](../components/ingest-broker-api/#112-list-project-for-submission)|x|C| | | | | | |
-|[1.13 List Samples for Submission](../components/ingest-broker-api/#113-list-samples-for-submission)|x|C| | | | | | |
-|[1.14 List Files for Submission](../components/ingest-broker-api/#114-list-files-for-submission)|x|C| | | | | | |
-|[1.15 List Analyses for Submission](../components/ingest-broker-api/#115-list-analyses-for-submission)|x|C| | | | | | |
-|[1.16 List Bundles for Submission](../components/ingest-broker-api/#116-list-bundles-for-submission)|x|C| | | | | | |
+|[1.1 Get Credentials](../components/ingest-broker-api/#11-get-credentials)|x|C| | | | | | |
+|[1.2 Template Spreadsheet Download](../components/ingest-broker-api/#12-template-spreadsheet-download)|x|C| | | | | | |
+|[1.3 Spreadsheet Upload](../components/ingest-broker-api/#13-spreadsheet-upload)|x|C| | | | | | |
+|[1.4 Validate Sample](../components/ingest-broker-api/#14-validate-sample)|x|P| | | | | | |
 |__[2. Ingest Broker](../components/ingest-broker)__||
 |[2.1 Credentials Poller](../components/ingest-broker/##21-credentials-poller)|P|P US| | | | | | |
 |[2.2 Spreadsheet to JSON Converter](../components/ingest-broker/##22-spreadsheet-to-json-converter)|P v3|F v4| | | | | | |
