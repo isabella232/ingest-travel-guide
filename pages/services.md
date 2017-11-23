@@ -10,22 +10,10 @@ Please see [Allocation](../allocation) for current responsibilites.
 
 ## Services and Cells
 * __[1. Ingest Broker API](../components/ingest-broker-api)__
-  + [1.1 Submission Create](../components/ingest-broker-api/#11-submission-create)
-  + [1.2 Get Credentials](../components/ingest-broker-api/#12-get-credentials)
-  + [1.3 Template Spreadsheet Download](../components/ingest-broker-api/#13-template-spreadsheet-download)
-  + [1.4 Spreadsheet Upload](../components/ingest-broker-api/#14-spreadsheet-upload)
-  + [1.5 Metadata Create](../components/ingest-broker-api/#15-metadata-create)
-  + [1.6 Metadata Update](../components/ingest-broker-api/#16-metadata-update)
-  + [1.7 Metadata Delete](../components/ingest-broker-api/#17-metadata-delete)
-  + [1.8 Validate Sample](../components/ingest-broker-api/#18-validate-sample)
-  + [1.9 Complete Submission](../components/ingest-broker-api/#19-complete-submission)
-  + [1.10 List All Submissions](../components/ingest-broker-api/#110-list-all-submissions)
-  + [1.11 Get Submission Details](../components/ingest-broker-api/#111-get-submission-details)
-  + [1.12 List Project for Submission](../components/ingest-broker-api/#112-list-project-for-submission)
-  + [1.13 List Samples for Submission](../components/ingest-broker-api/#113-list-samples-for-submission)
-  + [1.14 List Files for Submission](../components/ingest-broker-api/#114-list-files-for-submission)
-  + [1.15 List Analyses for Submission](../components/ingest-broker-api/#115-list-analyses-for-submission)
-  + [1.16 List Bundles for Submission](../components/ingest-broker-api/#116-list-bundles-for-submission)
+  + [1.1 Get Credentials](../components/ingest-broker-api/#11-get-credentials)
+  + [1.2 Template Spreadsheet Download](../components/ingest-broker-api/#12-template-spreadsheet-download)
+  + [1.3 Spreadsheet Upload](../components/ingest-broker-api/#13-spreadsheet-upload)
+  + [1.4 Validate Sample](../components/ingest-broker-api/#14-validate-sample)
 * __[2. Ingest Broker](../components/ingest-broker)__
   + [2.1 Credentials Poller](../components/ingest-broker/#21-credentials-poller)
   + [2.2 Spreadsheet to JSON Converter](../components/ingest-broker/#22-spreadsheet-to-json-converter)
