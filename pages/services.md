@@ -24,7 +24,7 @@ Please see [Allocation](../allocation) for current responsibilites.
 * __[3. Ingest Accessioner](../components/ingest-accessioner)__
   + [3.1 HCA Accessioner](../components/ingest-accessioner/#31-hca-accessioner)
 * __[4. Ingest Validator](../components/ingest-validator)__
-  + [4.1 Metadata Validator/s](../components/ingest-validator/#41-metadata-validators)
+  + [4.1 Metadata Validator](../components/ingest-validator/#41-metadata-validator)
   + [4.2 FASTQ File Validator](../components/ingest-validator/#42-fastq-file-validator)
   + [4.3 Image File Validator](../components/ingest-validator/#43-image-file-validator)
 * __[5. Ingest Archiver](../components/ingest-archiver)__
