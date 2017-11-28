@@ -58,7 +58,7 @@ MERGE (ingest_validator)-[:REFERENCES]->(sequence_data_file_standards)
 MERGE (ingest_validator)-[:DEPENDS_ON]->(metadata_validation_with_ontology)
 MERGE (ingest_core)-[:DEPENDS_ON]->(ingest_ccc)
 MERGE (ingest_broker_api)-[:DEPENDS_ON]->(ingest_ccc)
-MERGE (ingest_accessioner)-[:DEPENDS_ON]->(usi_service)
+MERGE (ingest_archiver)-[:DEPENDS_ON]->(usi_service)
 MERGE (ingest_exporter)-[:DEPENDS_ON]->(hca_upload_service)
 MERGE (ingest_exporter)-[:DEPENDS_ON]->(hca_data_store)
 //EXTERNAL
