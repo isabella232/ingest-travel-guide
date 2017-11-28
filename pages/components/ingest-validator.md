@@ -2,7 +2,7 @@
 
 Provides validation for HCA DCP metadata and data files. 
 
-## 4.1 Metadata Validator/s
+## 4.1 Metadata Validator
 * __Trigger__
     * Event: Metadata created
     * Event: Metadata updated
